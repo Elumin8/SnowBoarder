@@ -62,7 +62,10 @@
     <Analyzer Include="/Users/kyrylokolosov/.vscode/extensions/visualstudiotoolsforunity.vstuc-1.1.2/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Resources/Scripts/Movement.cs" />
+    <Compile Include="Assets/Resources/Scripts/PlayerController.cs" />
+    <Compile Include="Assets/Resources/Scripts/FinishLine.cs" />
+    <Compile Include="Assets/Resources/Scripts/CrashDetector.cs" />
+    <Compile Include="Assets/Resources/Scripts/SlideEffect.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
